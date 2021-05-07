@@ -37,6 +37,46 @@ header{
     font-size: 20px;
     width: 28px;
     margin-right: 10px;
-    
-    
+}
+.container{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row;
+    margin: auto;
+}
+
+.gallery{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: flex;
+    width: calc(100% / 6);
+    object-fit: cover;
+    align-items: flex-end;
+    position: relative;
+}
+.col img{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.pincopallo{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 2%;
+    font-family: 'Lato', sans-serif;
+}
+
+.gallery2{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    flex-wrap: wrap;
 }
